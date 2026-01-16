@@ -1,0 +1,30 @@
+baseURL = 'https://SelinZhang.github.io/' # 如果是 user 仓库，则只需 https://你的用户名.github.io/
+languageCode = 'zh-cn'
+title = 'NeoForge Modding Tutorial'
+theme = 'hugo-book'
+
+# 启用 Git 信息（显示最后修改时间）
+enableGitInfo = true
+
+[params]
+  # 风格设置
+  BookTheme = 'light' # 可选 'dark' 或 'auto'
+  
+  # 侧边栏菜单相关
+  # BookMenuBundle = '/menu' # 如果你想手动管理菜单，可以启用这个
+  BookSection = '*' # 默认将 content 下一级文件夹作为大类
+
+  # 仓库链接（会在页面显示 "Edit this page"）
+  BookRepo = 'https://github.com/SelinZhang/SelinZhang.github.io'
+  BookEditPath = 'edit/main/content'
+  
+  # 日期格式
+  BookDateFormat = '2006年01月02日'
+
+# 必须配置 markdown 处理以支持中文锚点
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # 允许 HTML 标签
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 2
