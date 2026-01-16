@@ -1,7 +1,7 @@
+theme = 'hugo-book'
 baseURL = 'https://SelinZhang.github.io/' # 如果是 user 仓库，则只需 https://你的用户名.github.io/
 languageCode = 'zh-cn'
 title = 'NeoForge Modding Tutorial'
-theme = 'hugo-book'
 
 # 启用 Git 信息（显示最后修改时间）
 enableGitInfo = true
