@@ -16,7 +16,7 @@ From environment setup to publishing your first mod, we will build it step by st
 
 [{{< badge style="default" title="Java" value="JDK 21" >}}](https://adoptium.net/)
 
-{{<button href="/en/docs/">}}Start the Journey{{</button>}}
+{{<button href="/docs/">}}Start the Journey{{</button>}}
 
 </div>
 

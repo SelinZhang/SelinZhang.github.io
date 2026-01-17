@@ -28,6 +28,8 @@ markup:
     startLevel: 2
     endLevel: 4
   highlight:
+    # style: tango
+    # style: igor
     style: github
 
 # Multi-lingual mode config
