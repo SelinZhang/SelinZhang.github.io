@@ -4,11 +4,11 @@
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
-baseURL: https://SelinZhang.github.io/
+baseURL: https://MindScrath.github.io
 title: NeoForge Modding Tutorial
 theme: hugo-book
 
-copyright: © SelinZhang
+copyright: © MindScrath
 
 # Book configuration
 disablePathToLower: true
@@ -65,13 +65,13 @@ menu:
   #     pageRef: "/showcases/"
   #     weight: 2
   #   - name: "Github"
-  #     url: "https://github.com/alex-shpak/hugo-book/"
+  #     url: https://github.com/MindScrath/MindScrath.github.io"
   #     weight: 3
 
   # before: []
   after:
     - name: "GitHub 仓库"
-      url: "https://github.com/SelinZhang/SelinZhang.github.io"
+      url: "https://github.com/MindScrath/MindScrath.github.io"
       weight: 10
   #   - name: "Hugo Themes"
   #     url: "https://themes.gohugo.io/themes/hugo-book/"
@@ -80,7 +80,7 @@ menu:
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme: "light"
+  BookTheme: "auto"
 
   # (Optional, default none) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled globally with markup.tableOfContents setting.
@@ -109,7 +109,7 @@ params:
   # When set enabled 'Edit this page' link in the footer of the page.
   # Param is executed as template using .Site, .Page and .Path as context.
   # BookRepo 必须先定义，虽然 YAML 顺序不敏感，但为了逻辑清晰，请确保 Site.Params.BookRepo 能被读取
-  BookRepo: "https://github.com/SelinZhang/SelinZhang.github.io"
+  BookRepo: "https://github.com/MindScrath/MindScrath.github.io"
   BookEditLink: '{{ .Site.Params.BookRepo }}/edit/main/{{ .Site.Params.BookSection }}/{{ .Path }}'
 
   # (Optional, default 'January 2, 2006') Configure the date format used on the pages
