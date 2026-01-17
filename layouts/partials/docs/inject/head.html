@@ -1,0 +1,57 @@
+<style>
+/* 提示词的基座（带虚线） */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: #007bff;
+  border-bottom: 1px dotted #007bff; /* 底部虚线提示这里可悬停 */
+  cursor: help; /* 鼠标变成问号 */
+}
+
+/* 提示框本体（默认隐藏） */
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 300px; /* 提示框宽度 */
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* 定位：在文字正上方 */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; 
+  left: 50%;
+  margin-left: -100px; /* 通过负边距居中 (width的一半) */
+  
+  /* 淡入淡出动画 */
+  opacity: 0;
+  transition: opacity 0.3s;
+  
+  /* 字体调整 */
+  font-size: 0.9rem;
+  font-weight: normal;
+  line-height: 1.4;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 底部的小三角箭头 */
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+/* 悬停时显示 */
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
