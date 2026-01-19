@@ -5,16 +5,16 @@ layout: landing
 
 <div class="book-hero">
 
-# NeoForge 1.21.11 开发实战 {anchor=false}
+# NeoForge 26.1 开发实战 {anchor=false}
 
-这里是基于 Minecraft 1.21.11 与 Java 21 的现代化模组开发指南。
+这里是基于 Minecraft 26.1 与 Java 25 的现代化模组开发指南。
 从环境搭建到发布你的第一个模组，我们将一步步构建。
 
-[{{< badge style="default" title="Minecraft" value="1.21.11" >}}](https://www.minecraft.net/)
+[{{< badge style="default" title="Minecraft" value="26.1" >}}](https://www.minecraft.net/)
 
-[{{< badge style="default" title="NeoForge" value="21.1.x" >}}](https://neoforged.net/)
+[{{< badge style="default" title="NeoForge" value="26.1.x.x" >}}](https://neoforged.net/)
 
-[{{< badge style="default" title="Java" value="JDK 21" >}}](https://adoptium.net/)
+[{{< badge style="default" title="Java" value="JDK 25" >}}](https://jdk.java.net/)
 
 {{<button href="/docs/">}}开始学习之旅{{</button>}}
 
@@ -23,7 +23,7 @@ layout: landing
 {{% columns %}}
 - ## 📘 这个教程包含什么
   - **Java 语言教学**：会教学基础的 Java 语法知识（类、接口、继承、泛型）。
-  - **最新的技术栈**：完全基于 NeoForge 21.1.x 和 Java 21 编写。
+  - **最新的技术栈**：完全基于 NeoForge 26.1.x.x 和 Java 25 编写。
   - **实战案例**：不只是 API 文档的翻译，而是通过构建一个实际的模组来教学。
   - **最佳实践**：包含项目结构管理、Git 工作流以及代码规范建议。
 
@@ -35,8 +35,8 @@ layout: landing
 
 {{% columns %}}
 - {{< card >}}
-  ## ☕ 拥抱 Java 21
-  利用 Record 类、模式匹配 (Pattern Matching) 和 Switch 表达式等现代 Java 特性，让模组代码更加简洁、优雅且高效。
+  ## ☕ 拥抱 Java 25
+  利用 Record 类、更灵活的模式匹配 (Pattern Matching) 等现代 Java 特性，让模组代码更加简洁、优雅且高效。
   {{< /card >}}
 
 - {{< card >}}
@@ -63,6 +63,6 @@ layout: landing
 
 - {{< card >}}
   ### 🎨 高级篇
-  探索 **渲染 (Rendering)**、**粒子效果 (Particles)** 以及 **WorldGen (世界生成)**。使用 Mixin 修改原版逻辑，创造独一无二的游戏体验。
+  探索 **渲染 (Rendering)**、**粒子效果 (Particles)** 以及 **WorldGen (世界生成)**。使用 **Mixin** 修改原版逻辑，创造独一无二的游戏体验。
   {{< /card >}}
 {{% /columns %}}

@@ -5,16 +5,16 @@ layout: landing
 
 <div class="book-hero">
 
-# NeoForge 1.21.11 Development in Action {anchor=false}
+# NeoForge 26.1 Development in Action {anchor=false}
 
-A modern modding guide based on Minecraft 1.21.11 and Java 21.
+A modern modding guide based on Minecraft 26.1 and Java 25.
 From environment setup to publishing your first mod, we will build it step by step.
 
-[{{< badge style="default" title="Minecraft" value="1.21.11" >}}](https://www.minecraft.net/)
+[{{< badge style="default" title="Minecraft" value="26.1" >}}](https://www.minecraft.net/)
 
-[{{< badge style="default" title="NeoForge" value="21.1.x" >}}](https://neoforged.net/)
+[{{< badge style="default" title="NeoForge" value="26.1.x.x" >}}](https://neoforged.net/)
 
-[{{< badge style="default" title="Java" value="JDK 21" >}}](https://adoptium.net/)
+[{{< badge style="default" title="Java" value="JDK 25" >}}](https://jdk.java.net/)
 
 {{<button href="/docs/">}}Start the Journey{{</button>}}
 
@@ -23,7 +23,7 @@ From environment setup to publishing your first mod, we will build it step by st
 {{% columns %}}
 - ## 📘 What This Tutorial Covers
   - **Java Fundamentals**: We will teach basic Java syntax knowledge (classes, interfaces, inheritance, generics).
-  - **The Latest Tech Stack**: Written entirely based on NeoForge 21.1.x and Java 21.
+  - **The Latest Tech Stack**: Written entirely based on NeoForge 26.1.x.x and Java 25.
   - **Real-World Scenarios**: Not just a translation of API docs, but teaching through building an actual mod.
   - **Best Practices**: Includes project structure management, Git workflows, and code style recommendations.
 
@@ -35,8 +35,8 @@ From environment setup to publishing your first mod, we will build it step by st
 
 {{% columns %}}
 - {{< card >}}
-  ## ☕ Embrace Java 21
-  Utilize modern Java features like Records, Pattern Matching, and Switch Expressions to make your mod code more concise, elegant, and efficient.
+  ## ☕ Embrace Java 25
+  Utilize modern Java features like Records, more flexible Pattern Matching to make your mod code more concise, elegant, and efficient.
   {{< /card >}}
 
 - {{< card >}}
@@ -63,6 +63,6 @@ From environment setup to publishing your first mod, we will build it step by st
 
 - {{< card >}}
   ### 🎨 Advanced
-  Explore **Rendering**, **Particles**, and **WorldGen**. Use Mixins to modify vanilla logic and create a truly unique gameplay experience.
+  Explore **Rendering**, **Particles**, and **WorldGen**. Use **Mixins** to modify vanilla logic and create a truly unique gameplay experience.
   {{< /card >}}
 {{% /columns %}}
