@@ -5,3 +5,15 @@
 [![NeoForge](https://img.shields.io/badge/ModLoader-NeoForge-EF5A29?style=flat&logo=curseforge&logoColor=white)](https://neoforged.net/)
 
 This is a useful repo for those who are intended to mod the `Minecraft`.
+
+## Contributor to know
+
+### 自定义格式
+
+#### tooltip
+
+```markdown
+{{< tooltip [phrase to show] [phrase to hide] >}}
+```
+
+
