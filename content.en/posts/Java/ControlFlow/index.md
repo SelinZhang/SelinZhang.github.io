@@ -118,7 +118,7 @@ A conditional statement with multiple branches creates a {{< tooltip "decision t
 The picture below demonstrates such a tree for the example with computers.
 
 <img src="https://gitee.com/xyl6716/blog-imgs/raw/main/image.svg" width="50%" />
-
+<img src="https://free.picui.cn/free/2026/01/25/697588845d177.png" alt="1769310408384.png" title="1769310408384.png" />
 This example completes our examination of conditional statements.
 
 
